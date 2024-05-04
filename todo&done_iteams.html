@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href='./todo&done_iteams.css' rel='stylesheet'>
+  </head>
+  <body>
+    <div class="list">
+  <form>
+    <input type="text" id="taskInput" placeholder="Enter New Task ...">
+    <button class="clickbtn">Click</button>
+    <button class="editbtn" type="button">Edit</button>
+  </form>
+  <div class="title">
+    <h2>* Todo List *</h2>
+    <h2>* Done List *</h2>
+  </div>
+  <div class="todo_done">
+    <ul id="taskList"></ul>
+    <div id="listdone">
+      <ul id="done"></ul>
+    </div>
+  </div>
+</div>
+<script src='./app.js'></script>
+</body>
+</html>
